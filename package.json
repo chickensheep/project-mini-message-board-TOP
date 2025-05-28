@@ -1,0 +1,21 @@
+{
+	"name": "project-mini-message-board-top",
+	"version": "1.0.0",
+	"description": "hi tis is project mini message board. i tink u can write message then post it on a board. ehhhh ye i tink",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.10",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
+}

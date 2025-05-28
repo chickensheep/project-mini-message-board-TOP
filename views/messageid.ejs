@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Message details</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Message details</h1>
+			<%for (let i=0;i<messages.length;i++){ if (messages[i].id==messageid){ %>
+			<div><b>User:</b> <%=messages[i].user%></div>
+			<div><b>Test: </b><%=messages[i].text%></div>
+			<div><b>Date added:</b> <%=messages[i].added%></div>
+			<%} } %>
+			<a href="/" class="addButton">Back to message board</a>
+		</div>
+	</body>
+</html>

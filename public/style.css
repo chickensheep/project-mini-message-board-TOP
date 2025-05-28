@@ -1,0 +1,45 @@
+body {
+	background-color: rgb(193, 127, 255);
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.messagesDiv {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+
+.messageDiv {
+	background-color: blueviolet;
+	text-align: center;
+	width: 30%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+}
+
+.message {
+	background-color: beige;
+	padding: 10px;
+}
+
+.addButton {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: inline-block;
+}
